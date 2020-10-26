@@ -113,9 +113,7 @@ USE_DEVICE_SPECIFIC_GPS := true
 TARGET_PROVIDES_GPS_LOC_API := true
 
 # MoKee Hardware
-BOARD_HARDWARE_CLASS := \
-    hardware/mokee/mkhw \
-    $(LOCAL_PATH)/mkhw
+BOARD_HARDWARE_CLASS := device/xiaomi/dior/lineagehw/src
     
 # No old RPC for prop
 TARGET_NO_RPC := true
